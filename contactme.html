@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Me</title>
+    <link rel="stylesheet" href="./css/contactme.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="left">
+          <p><a href="#">Shriyans' Portfolio</a></p>
+        </div>
+        <div class="right">
+          <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/">About</a></li>
+            <li><a href="/">Services</a></li>
+            <li><a href="/">Projects</a></li>
+            <li><a href="./contactme.html">Contact Me</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <section class="heading firstSection">
+      <div class="left">
+        <h1 class="themeColor">Hire Me!</h1>
+        <span>What is Your Query?</span>
+      </div>
+      <div class="right">
+        <img src="img/thumbsupchimanzee.png" alt="image"> 
+      </div>
+    </section>
+
+    <form name="contact" netlify>
+      <h1>About You</h1>
+      <section class="aboutYou">
+        <p class="formText" style="margin-right: 100px">
+          <label
+            >First name<input
+              class="es-input"
+              name="name"
+              id="firstname"
+              type="text"
+          /></label>
+        </p>
+        <p class="formText" style="margin-right: 100px">
+          <label
+            >Last name<input
+              class="es-input"
+              name="name"
+              id="lastname"
+              type="text"
+          /></label>
+        </p>
+
+        <p class="formText" style="margin-right: 100px">
+          <label>Email <input type="email" name="email" /></label>
+        </p>
+        <p class="formText">
+          <label>Phone <input type="tel" name="tel" /></label>
+        </p>
+      </section>
+
+      <section class="aboutYour___Project">
+        <h1>About Your Project</h1>
+        <p class="formText">
+          <p class="Text">What Services do You Need</p>
+          <label for="firstoption" class="Text">UX/UI DESIGN<input type="radio" name="radio" id="firstoption"/></label>
+        <p>
+          <label for="secondoption" class="Text">FRONTEND<input type="radio" name="radio" id="secondoption"/></label>
+        </p>
+        <p>
+          <label for="thirdoption" class="Text">BACKEND<input type="radio" name="radio" id="thirdoption"/></label>
+        </p>
+        <p style="margin-top: 40px;" class="Text">In Which Frame Work:</p>
+        <p>
+          <label for="fourthoption" class="Text">REACT<input type="radio" name="secondradio" id="fourthoption"/></label>
+        </p>
+        </p>
+          <label for="fifthoption" class="Text">NEXT JS<input type="radio" name="secondradio" id="fifthoption"/></label>
+        </p>
+        <br>
+        <br>
+      </section>
+      <label class="Text">Anything Else <input type="text" name="text" /></label>
+
+      <p class="formText">
+        <button type="submit">Send</button>
+      </p>
+    </form>
+  </body>
+</html>
